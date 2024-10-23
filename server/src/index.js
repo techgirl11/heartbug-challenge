@@ -19,7 +19,7 @@ server.get("/", (req, res) => {
 });
 
 const connection = mysql.createConnection({
-  host: "1b64a0e2c046",
+  host: "32c97cc37c63",
   user: "root",
   password: "heartbug",
   database: "heartbug",
