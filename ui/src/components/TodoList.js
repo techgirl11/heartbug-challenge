@@ -17,7 +17,6 @@ function TodoList() {
   const [status, setStatus] = useState("");
 
   function addTask(text) {
-    alert(text);
     const newTask = {
       description: text,
     };

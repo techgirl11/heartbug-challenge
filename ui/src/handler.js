@@ -15,7 +15,6 @@ export const getTaskList = async () => {
 };
 
 export const createTask = async (data) => {
-  alert(JSON.stringify(data));
   return await axios
     .post(`http://localhost:8080/task`, data, {
       headers: {
